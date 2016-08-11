@@ -1,10 +1,10 @@
-# memory-cache [![Build Status](https://travis-ci.org/ptarjan/node-cache.svg?branch=master)](https://travis-ci.org/ptarjan/node-cache)
+# easy-memory-cache
 
-A simple in-memory cache for node.js
+An easy in-memory cache for node.js, based and forked from [Memory-cache](https://www.npmjs.com/package/memory-cache)
 
 ## Installation
 
-    npm install memory-cache --save
+    npm install easy-memory-cache --save
 
 ## Usage
 
@@ -12,7 +12,6 @@ A simple in-memory cache for node.js
 var cache = require('memory-cache');
 
 // now just use the cache
-
 cache.put('foo', 'bar');
 console.log(cache.get('foo'));
 
@@ -37,6 +36,10 @@ which should print
     Houdini is null
 
 ## API
+
+### createCache = function()
+* The function createCache on the global cache object, creates a completely new instance of the cache.
+* Returns the new cache instance.
 
 ### put = function(key, value, time, timeoutCallback)
 
@@ -74,11 +77,11 @@ which should print
 
 ### hits = function()
 
-* Returns the number of cache hits (only monitored in debug mode)
+* Returns the number of cache hits
 
 ### misses = function()
 
-* Returns the number of cache misses (only monitored in debug mode)
+* Returns the number of cache misses
 
 ### keys = function()
 
