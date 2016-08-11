@@ -3,22 +3,10 @@
   "version": "0.2.0",
   "description": "A simple in-memory cache which can create multiple instances and keep track of misses and hits, forked from npm memory-cache",
   "contributors": [
-    {
-      "name": "Paul Tarjan",
-      "email": "npm@paulisageek.com"
-    },
-    {
-      "name": "Ramon Snir",
-      "email": "ramon@dynamicyield.com"
-    },
-    {
-      "name": "Jacob Wenger",
-      "email": "wenger.jacob@gmail.com"
-    },
-    {
-      "name": "Easybird",
-      "email": "info@easybird.be"
-    }
+    "Paul Tarjan <npm@paulisageek.com>",
+    "Ramon Snir <ramon@dynamicyield.com>",
+    "Jacob Wenger <wenger.jacob@gmail.com>",
+    "Easybird <info@easybird.be>"
   ],
   "keywords": [
     "cache",
@@ -29,10 +17,10 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/easybird/easy-memory-cache"
+    "url": "git://github.com/easybird/easy-memory-cache.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/gulp test"
+    "test": "gulp test"
   },
   "license": "BSD-2-Clause",
   "devDependencies": {
@@ -45,5 +33,10 @@
     "jshint-stylish": "^1.0.1",
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/easybird/easy-memory-cache/issues"
+  },
+  "homepage": "https://github.com/easybird/easy-memory-cache#readme",
+  "author": ""
 }
