@@ -1,8 +1,12 @@
 {
   "name": "easy-memory-cache",
+  "version": "0.2.0",
   "description": "A simple in-memory cache which can create multiple instances and keep track of misses and hits, forked from npm memory-cache",
-  "author": "Paul Tarjan <npm@paulisageek.com>",
   "contributors": [
+    {
+      "name": "Paul Tarjan",
+      "email": "npm@paulisageek.com"
+    },
     {
       "name": "Ramon Snir",
       "email": "ramon@dynamicyield.com"
@@ -23,7 +27,6 @@
     "storage"
   ],
   "main": "./index.js",
-  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/easybird/easy-memory-cache"
